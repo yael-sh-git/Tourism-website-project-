@@ -1,0 +1,7 @@
+# Force LF line endings for these files
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+
+# Handle text files automatically
+* text=auto
