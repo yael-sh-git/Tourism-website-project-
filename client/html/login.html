@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>התחברות לאתר</title>
+<style>
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    font-family: Arial, sans-serif;
+  }
+  .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/תמונת\ מסך.png');
+  background-size: 100% 100%;
+  z-index: -1; /* שיהיה מאחורי התוכן */
+  opacity: 0.5; /* שקיפות נמוכה לרקע */
+}
+
+
+
+  .login-container, #registrationForm {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 4px solid  #D9E9F8;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  .login-title ,.login-title2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .input-field {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: right;
+  }
+
+  #loginButton, #registerButton {
+    width: 50%;
+    padding: 12px 0;
+    background-color: #007E82;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #loginButton:hover, #registerButton:hover {
+    background-color:  #026c6f;
+  }
+
+  #registerText {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: color 0.3s;
+  }
+
+  #registerText:hover {
+    color: #333;
+  }
+
+  #registrationForm {
+    width: 100%;
+  }
+  .error {
+  border-color: 2px solid rgba(255, 0, 0, 0.67);
+}
+.error-message {
+  color: red;
+}
+  #registerButton {
+    margin-top: 10px;
+  }
+
+  
+</style>
+<script type="text/javascript" src="../scrips/login.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+</head>
+<body>
+
+  <div class="background"></div>
+
+<div class="login-container" >
+  <div class="login-title">התחבר</div>
+  <div class="input-field">
+    <label for="email">:אימייל</label>
+    <input type="email" id="email" name="email" placeholder="הכנס את כתובת האימייל שלך" required>
+  </div>
+  <div class="input-field">
+    <label for="password">:סיסמא</label>
+    <input type="password" id="password" name="password" placeholder="הכנס סיסמא" required>
+  </div>
+  <button id="loginButton" onclick="login()">התחברות</button>
+  <div id="registerText" onclick="join()">עוד לא רשום? לחץ כדי להרשם</div>
+</div>
+
+
+<div id="responseContainer"></div>
+
+  <div id="registrationForm" style="display: none;">
+    <div class="login-title2">:תודה על הצטרפותך, אנא מלא את הפרטים הבאים</div>
+    <div class="input-field">
+      <label for="firstName">:שם פרטי</label>
+      <input class="i" type="text" id="firstName" name="firstName" placeholder="הכנס שם פרטי" required>
+    </div>
+    <div class="input-field">
+      <label for="lastName">:שם משפחה</label>
+      <input class="i" type="text" id="lastName" name="lastName" placeholder="הכנס שם משפחה" required>
+    </div>
+    <div class="input-field">
+      <label for="registerEmail">:אימייל</label>
+      <input class="i" type="email" id="registerEmail" name="registerEmail" placeholder="הכנס אימייל" required>
+      <div id="registerEmailError" class="error-message"></div>
+    </div>
+    <div class="input-field">
+      <label for="registerPassword">:סיסמא</label>
+      <input class="i" type="password" id="registerPassword" name="registerPassword" placeholder="הכנס סיסמא" required>
+      <div id="registerPasswordError" class="error-message"></div>
+    </div>
+    <button id="registerButton" onclick="register()">הרשם</button>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

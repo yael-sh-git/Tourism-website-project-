@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> FUN more</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  header {
+  background-color: #D9E9F8;
+  border-bottom: rgb(161, 202, 245) solid 3px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+  header a {
+    color: #007E82;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 10px;
+  }
+
+
+  .categories-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .category {
+    width: calc(50% - 20px);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .category:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+    transition: .5s ease;
+    color: black;
+    font-size: 40px;  
+  }
+
+  .icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .addPlace{
+    font-size: 35px;
+    color: #f0f0f0;
+  }
+
+  .add_category{
+    position: absolute;
+      top: 90px; 
+      right: 0;
+      margin: 20px;
+      height: 40px;
+      background-color: #D9E9F8;
+      color: #007E82;
+      border: 2px solid #007E82;     
+  }
+
+  .place-row {
+  display: flex; /* כדי להציג את הפריטים בשורה אחת */
+  flex-wrap: wrap; /* כדי לאפשר לשורה להתמקם מחדש כשהיא מתמלאת */
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: space-between; /* כדי למלא את השורה ולהפריד בין הפריטים במרחק יעיל */
+}
+
+/* .place {
+  width: calc(25% - 10px); 
+  margin-bottom: 10px; 
+  box-sizing: border-box; 
+} */
+
+.place {
+  width: calc(25% - 10px); 
+  height: 200px; 
+  /* margin: 10px; */
+  margin-bottom: 10px;
+  /* padding: 10px;  */
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s;
+  overflow: hidden; 
+  /* box-sizing: border-box; */
+}
+.place:hover {
+  transform: scale(1.08); /* כאשר העכבר חולף מעל, התמונה מתגדלת לפי הגורם */
+}
+.place img {
+  width: 100%;
+  height: auto;
+  max-height: calc(100% - 30px); /* כדי לשמור רווח בתחתית הדיב */
+  object-fit: cover;
+}
+
+.place h3 {
+  margin: 5px 0;
+}
+
+.place button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.place button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@media (max-width: 768px) {
+  .place {
+    width: calc(50% - 10px); /* 2 מקומות בשורה עבור מסכים בגודל בינוני */
+  }
+}
+
+@media (max-width: 480px) {
+  .place {
+    width: 100%; /* 1 מקום בשורה עבור מסכים קטנים */
+  }
+}
+
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 100%; /* הגדר את גובה התמונה ל-100% של ה-header */
+}
+
+
+.place-details-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-details {
+    position: absolute;
+    z-index: 1;
+    top: 50%; /* תינתן לגובה 50% */
+    left: 50%; /* תינתן לרוחב 50% */
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.place-details img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.place-details h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.place-details p {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+
+.close-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+/* טבלה להצגת הביקורות */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+/* הסתרת הטבלה בהתחלה */
+.reviews-table {
+  display: none;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.review-input-container {
+    margin-top: 20px; /* הוסף רווח מעל לתיבת הטקסט */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* למרכז את האינפוט והכפתור אופקית */
+}
+
+.review-input-container input {
+    border-radius: 10px 0 0 10px; /* מעט מעוגל את הפינות שמשמאל של האינפוט */
+    height: 30px;
+    flex: 1; /* מאיץ את התפריט אופקית כך שהאינפוט ימלא את הרוחב */
+    text-align: right;
+}
+
+.review-input-container button {
+    border-radius: 0 10px 10px 0; /* מעט מעוגל את הפינות שמימין של הכפתור */
+    height: 35px;
+}
+
+
+
+
+</style>
+<script type="text/javascript" src="../scrips/category.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+</head>
+<body>
+<header>
+  <div>
+    <div style="display: flex; align-items: center;">
+      <a onclick="update()" class="icon">עדכון פרופיל</a>
+    </div>
+  </div>
+  <img src="./images/לוגו.png" alt="לוגו של האתר" style="max-height: 50px;"> 
+  <div>
+    <a href="home.html" class="icon">עמוד הבית</a>
+    <a href="category.html" class="icon">קטגוריות</a>
+    <a href="addPlace.html" class="icon">פרסמו אצלנו</a>
+  </div>
+</header>
+
+<h1 class="addPlace">פרסמו אצלינו </a></h1>
+
+<button class="add_category" onclick="addCategory()" style="display: none;"> להוספת קטגוריה</button>
+<!-- טבלת הקטגוריות -->
+<div id="categories-row" class="categories-row"></div>
+
+
+
+<!-- טבלת המקומות -->
+<div id="places-row" class="places-row"  style="display: none;"></div>
+
+<!-- פרטים -->
+<div class="place-details-container" style="display: none;">
+  <div class="place-details">
+      <span class="close-button" onclick="closeDetails()">סגור</span>
+      <img id="detail_img"  alt="תמונת המקום">
+      <h2 id="detail_name"> </h2>
+      <p id="detail_adress"> </p>
+      <p id="detail_tel"> </p>
+      <p id="detail_age"></p>
+      <p id="comment">הערות: </p>
+      <div class="reviews">
+        <p class="reviews-header" onclick="toggleReviews()">הצגת הביקורות <span class="arrow">&#9660;</span></p>
+        <table class="reviews-table" id="reviews-table">
+            <tr>
+                <th class="right-aligned">ביקורות</th>
+            </tr>
+        </table>
+        
+        
+        <div class="review-input-container">
+          <input type="text" id="review-input" placeholder="הוסף ביקורת">
+          <button id="add_review" >הוסף ביקורת</button>
+      </div>
+
+    </div>
+      
+  </div>
+</div>
+</body>
+</html>
+
+
+

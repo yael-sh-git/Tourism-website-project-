@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "64f0fb381c30ecabbaaeb5f9"
+  },
+  "category_name": "לופטים",
+  "image": "https://www.loftplus.co.il/gallery/1557258507713982jpeg/999x4501557258507713982.jpeg",
+  "createdAt": {
+    "$date": "2023-08-31T20:42:32.940Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T20:25:06.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "category_name": "אטרקציות",
+  "image": "https://images.unsplash.com/photo-1670924758351-a372e77f6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60",
+  "createdAt": {
+    "$date": "2023-08-31T20:43:18.317Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T20:26:04.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f0fb941c30ecabbaaeb5fe"
+  },
+  "category_name": "מקומות לינה",
+  "image": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "createdAt": {
+    "$date": "2023-08-31T20:44:04.079Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T20:27:28.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "category_name": "מסעדות",
+  "image": "https://plus.unsplash.com/premium_photo-1692833837064-c3fb26296a4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60",
+  "createdAt": {
+    "$date": "2023-08-31T20:44:25.728Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T20:27:57.443Z"
+  },
+  "__v": 0
+}]

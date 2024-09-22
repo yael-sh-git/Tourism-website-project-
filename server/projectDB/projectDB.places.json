@@ -1,0 +1,609 @@
+[{
+  "_id": {
+    "$oid": "64f4dbd6feed639b5e4a07e5"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "crazy mary",
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/5c/0f/b2/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+  "adress": [
+    {
+      "street": "הרכבים 13",
+      "city": "ירושלים",
+      "_id": {
+        "$oid": "64f4fa57add56f7048ff6586"
+      }
+    }
+  ],
+  "tel": "050-555-7471",
+  "target_age": "lad",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-03T19:17:42.099Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T21:27:51.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f4de37265efa7c025a7246"
+  },
+  "category_id": {
+    "$oid": "64f0fb381c30ecabbaaeb5f9"
+  },
+  "place_name": "חההכ",
+  "image": "https://pic.vilaplus.co.il/images/partyloft1/12m.jpg",
+  "adress": [
+    {
+      "street": "טילחנ",
+      "city": "ילחלה",
+      "_id": {
+        "$oid": "64f4de37265efa7c025a7247"
+      }
+    }
+  ],
+  "tel": "03-982665523",
+  "target_age": "everyOne",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-03T19:27:51.766Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T19:27:51.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f6238eba7af97464fe2318"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "ג'יפים תיירות גולן",
+  "image": "https://tourgolan.org.il/wp-content/uploads/2021/02/%D7%92%D7%99%D7%A4%D7%99%D7%9D-%D7%A2%D7%9D-%D7%90%D7%99%D7%9C%D7%9F-%D7%94%D7%93%D7%A8-2.jpeg",
+  "adress": [
+    {
+      "street": "מרום גולן",
+      "city": "",
+      "_id": {
+        "$oid": "64f6238eba7af97464fe2319"
+      }
+    }
+  ],
+  "tel": "052-7896528",
+  "target_age": "everyOne",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-04T18:35:58.235Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-04T18:35:58.235Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f651d61f5549d0ea925b74"
+  },
+  "category_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "place_name": "אלפרדו",
+  "image": "https://mekomot-eruim.co.il/images/businesses_multi/1661252674alfredopt7.jpg",
+  "adress": [
+    {
+      "street": "דרך אם המושבות 94",
+      "city": "פתח תקווה",
+      "_id": {
+        "$oid": "64f651d61f5549d0ea925b75"
+      }
+    }
+  ],
+  "tel": "052-9121483",
+  "target_age": "everyOne",
+  "comments": "מסעדה חלבית בכשרות מהודרת",
+  "createdAt": {
+    "$date": "2023-09-04T21:53:26.226Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-04T21:53:26.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f74264329a9e7360c7a3c3"
+  },
+  "category_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "place_name": "לחם בשר",
+  "image": "https://lechembasar-rishon.co.il/wp-content/uploads/2019/07/Lechembasar_by_Dror_Varshavski-14.jpg",
+  "adress": [
+    {
+      "street": "משה בקר 13",
+      "city": "ראשון לציון",
+      "_id": {
+        "$oid": "64f74264329a9e7360c7a3c4"
+      }
+    }
+  ],
+  "tel": "03-955-5511",
+  "target_age": "כל הגילאים",
+  "comments": "המסעדה בהכשר מחפוד",
+  "createdAt": {
+    "$date": "2023-09-05T14:59:48.077Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T14:59:48.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b16c6a80e9f2540c3939"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "\"פארק המים \"ספידי כיף",
+  "image": "https://www.speedi-kef.co.il/wp-content/uploads/2017/10/video_0350.png",
+  "adress": [
+    {
+      "street": "",
+      "city": "מבוא ביתר",
+      "_id": {
+        "$oid": "64f7b16c6a80e9f2540c393a"
+      }
+    }
+  ],
+  "tel": "052-3385029",
+  "target_age": "ילדים",
+  "comments": "ניתן להגיע לספידי כיף בכל ימות השנה לקבוצות ומשפחות בתאום טלפוני, מחירים מיוחדים לקבוצות ות\"תים 052-3385029",
+  "createdAt": {
+    "$date": "2023-09-05T22:53:32.093Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T22:53:32.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b3256f6de6bdda6b7844"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "מנהרות הכותל",
+  "image": "https://www.tiuli.com/image/30327e95e160413afb5d843ad11cc5e3.jpg?&width=1080&height=0",
+  "adress": [
+    {
+      "street": "סביב הכותל המערבי",
+      "city": "ירושלים",
+      "_id": {
+        "$oid": "64f7b3256f6de6bdda6b7845"
+      }
+    }
+  ],
+  "tel": "*5958",
+  "target_age": "כל הגילאים",
+  "comments": "אתר מנהרות הכותל מזמן לכם את האפשרות לחזור אחורה בזמן, אל היסודות הפיזיים וההיסטורים של הקיר הקרוב ביותר לקודש הקודשים - הכותל המערבי",
+  "createdAt": {
+    "$date": "2023-09-05T23:00:53.097Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:00:53.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b9953d84875416ec838b"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "עיר דוד",
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/3f/b3/f4/caption.jpg?w=1200&h=1200&s=1",
+  "adress": [
+    {
+      "street": "מעלות עיר דוד",
+      "city": "ירושלים",
+      "_id": {
+        "$oid": "64f7b9953d84875416ec838c"
+      }
+    }
+  ],
+  "tel": "02-97828713",
+  "target_age": "כל הגילאים",
+  "comments": "אחד האתרים החשובים בגן הלאומי סביב חומות ירושלים הוא עיר דוד– מקום ראשית התהוותה של בירתנו ירושלים - \"כאן הכל התחיל... \" מוזמנים למסע מרתק מעל האדמה ומתחתיה במקום בו התרחשו אירועים מכוננים בתולדות עם ישראל.",
+  "createdAt": {
+    "$date": "2023-09-05T23:28:21.366Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:28:21.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bce64a30a05f608d582b"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "אקווריום ישראל",
+  "image": "https://familytrips.co.il/wp-content/uploads/elementor/thumbs/20190810_102917-qa7uxtbfvz1vzjrk7r7lrjgb03w7queuryl77vwwio.jpg",
+  "adress": [
+    {
+      "street": "",
+      "city": "ירושלים",
+      "_id": {
+        "$oid": "64f7bce64a30a05f608d582c"
+      }
+    }
+  ],
+  "tel": "02-9523564",
+  "target_age": "כל הגילאים",
+  "comments": "נגיש לעגלות",
+  "createdAt": {
+    "$date": "2023-09-05T23:42:30.554Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:42:30.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bd974a30a05f608d5830"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "פארק מיני ישראל",
+  "image": "https://www.eventim.co.il/obj/media/IL-eventim/galery/venue/m/mini4.JPG",
+  "adress": [
+    {
+      "street": "לטרון",
+      "city": "עמק איילון",
+      "_id": {
+        "$oid": "64f7bd974a30a05f608d5831"
+      }
+    }
+  ],
+  "tel": "0548739852",
+  "target_age": "כל הגילאים",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-05T23:45:27.907Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:45:27.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7be124a30a05f608d5835"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "ריינג'רים",
+  "image": "https://www.tiuli.com/image/f0efd07b42e617c1a01b42339e241aac.jpg?&width=1080&height=0",
+  "adress": [
+    {
+      "street": "",
+      "city": "אחוזת ציפורי",
+      "_id": {
+        "$oid": "64f7be124a30a05f608d5836"
+      }
+    }
+  ],
+  "tel": "05487469523",
+  "target_age": "נוער",
+  "comments": "!מומלץ מאד",
+  "createdAt": {
+    "$date": "2023-09-05T23:47:30.303Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:47:30.303Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7be9e4a30a05f608d5843"
+  },
+  "category_id": {
+    "$oid": "64f0fb661c30ecabbaaeb5fc"
+  },
+  "place_name": "חוויה בחוה",
+  "image": "https://chava.co.il/wp-content/uploads/elementor/thumbs/-%D7%91%D7%97%D7%95%D7%95%D7%94-31-q9ovr8b2ts8uvn6h5xjsaclgadztch8s395hdzsa8g.webp",
+  "adress": [
+    {
+      "street": "משק 55",
+      "city": "בית חלקיה",
+      "_id": {
+        "$oid": "64f7be9e4a30a05f608d5844"
+      }
+    }
+  ],
+  "tel": "086728569",
+  "target_age": "ילדים",
+  "comments": "מוזמנים לבוא אלינו ולהנות משלל אטרקציות מגוונות, חוויותיות ומעשירות, המתאימות לכל ילדי המשפחה!",
+  "createdAt": {
+    "$date": "2023-09-05T23:49:50.656Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:49:50.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bf4e4a30a05f608d5853"
+  },
+  "category_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "place_name": "בורגרס בר",
+  "image": "https://images.rest.co.il/Customers/80308540/8bbc7ec7775742e597706dc89176b207_56.jpg",
+  "adress": [
+    {
+      "street": "הרובע היהודי",
+      "city": "ירושלים",
+      "_id": {
+        "$oid": "64f7bf4e4a30a05f608d5854"
+      }
+    }
+  ],
+  "tel": "02-9842674",
+  "target_age": "כל הגילאים",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-05T23:52:46.940Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:52:46.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bfc94a30a05f608d5858"
+  },
+  "category_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "place_name": "זיסלק",
+  "image": "https://imageproxy.wolt.com/venue/638488854e330c729c041030/89341ede-6fb9-11ed-b000-52dd3831145c_3c43bed6_d455_11ec_b5ac_6e3cbc672037_r72a2069.jpg",
+  "adress": [
+    {
+      "street": "הרב משורר ישעיהו 11",
+      "city": "פתח תקווה",
+      "_id": {
+        "$oid": "64f7bfc94a30a05f608d5859"
+      }
+    }
+  ],
+  "tel": "+972556688755",
+  "target_age": "כל הגילאים",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-05T23:54:49.680Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:54:49.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c0864a30a05f608d585d"
+  },
+  "category_id": {
+    "$oid": "64f0fba91c30ecabbaaeb600"
+  },
+  "place_name": "היקב",
+  "image": "http://yekev.rol.co.il/wp-content/uploads/2021/09/gallery-2.jpg",
+  "adress": [
+    {
+      "street": "גד מכנס 6",
+      "city": "נתניה",
+      "_id": {
+        "$oid": "64f7c0864a30a05f608d585e"
+      }
+    }
+  ],
+  "tel": "077-2311787",
+  "target_age": "כל הגילאים",
+  "comments": "מסעדה חלבית  איטלקית כשרה למהדרין השוכנת מול נופי הים היפים של נתניה\nהתפריט של היקב מציע מגוון מנות איטלקיות, מנות חלביות, מנות דגים, מנות טבעוניות ועוד\nבמסעדת היקב ניתן לערוך כל סוג של אירוע\n\n",
+  "createdAt": {
+    "$date": "2023-09-05T23:57:58.457Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T23:57:58.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c10e4a30a05f608d586b"
+  },
+  "category_id": {
+    "$oid": "64f0fb941c30ecabbaaeb5fe"
+  },
+  "place_name": "דרך המלך ",
+  "image": "https://cdn.zimertop.co.il/gallery/thumbs/146649000734_640x420.jpg",
+  "adress": [
+    {
+      "street": "עין יעקב ",
+      "city": "בגליל המערבי",
+      "_id": {
+        "$oid": "64f7c10e4a30a05f608d586c"
+      }
+    }
+  ],
+  "tel": "052-9129293",
+  "target_age": "כל הגילאים",
+  "comments": "דרך המלך- לפעמים חלומות מתגשמים. אירוח בסוויטה יוקרתית וחדישה לחלוטין בישוב עין יעקב שבגליל המערבי. עם עיצוב מדויק, שיגרום לכם",
+  "createdAt": {
+    "$date": "2023-09-06T00:00:14.622Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:00:14.622Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c1984a30a05f608d5870"
+  },
+  "category_id": {
+    "$oid": "64f0fb941c30ecabbaaeb5fe"
+  },
+  "place_name": "בל- סוויטות יוקרה ",
+  "image": "https://cdn.zimertop.co.il/gallery/16587413519788.jpg",
+  "adress": [
+    {
+      "street": "נוף כנרת",
+      "city": "",
+      "_id": {
+        "$oid": "64f7c1984a30a05f608d5871"
+      }
+    }
+  ],
+  "tel": "052-912-1848",
+  "target_age": "מבוגרים",
+  "comments": "*לכל סוויטה יש בנוסף חדר שינה נוסף לזוג/ילדים - בתוספת תשלום ותיאום מראש מול בעל המתחם\n*בכל אחת מהסוויטות תצאו ישירות אל בריכה מחוממת ומקורה. *בסוויטה M1-בנוסף ג'קוזי ספא מקורה.",
+  "createdAt": {
+    "$date": "2023-09-06T00:02:32.279Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:02:32.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c2b9488a69fc86858291"
+  },
+  "category_id": {
+    "$oid": "64f0fb941c30ecabbaaeb5fe"
+  },
+  "place_name": "ראש פינת נוי",
+  "image": "https://cdn.zimertop.co.il/gallery/thumbs/159152468964_640x420.jpg",
+  "adress": [
+    {
+      "street": "ראש פינה",
+      "city": "בגליל העליון",
+      "_id": {
+        "$oid": "64f7c2b9488a69fc86858292"
+      }
+    }
+  ],
+  "tel": "052-9126317",
+  "target_age": "מבוגרים",
+  "comments": "נופש מרהיב במושבה הציורית ראש פינה. סוויטות בעיצוב ייחודי ומרשים עם מתחם גן פרטי ובריכה מחוממת ומקורה לכל צימר.",
+  "createdAt": {
+    "$date": "2023-09-06T00:07:21.358Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:07:21.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c30e488a69fc868582ab"
+  },
+  "category_id": {
+    "$oid": "64f0fb941c30ecabbaaeb5fe"
+  },
+  "place_name": "פינה בראש ",
+  "image": "https://cdn.zimertop.co.il/gallery/150097171379.jpg",
+  "adress": [
+    {
+      "street": "ראש פינה",
+      "city": "גליל עליון",
+      "_id": {
+        "$oid": "64f7c30e488a69fc868582ac"
+      }
+    }
+  ],
+  "tel": "052-9097795",
+  "target_age": "מבוגרים",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-06T00:08:46.374Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:08:46.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c3a4488a69fc868582b6"
+  },
+  "category_id": {
+    "$oid": "64f0fb381c30ecabbaaeb5f9"
+  },
+  "place_name": "לופט פלוס",
+  "image": "https://www.loftplus.co.il/gallery/1620201308077585jpeg/999x4501620201308077585.jpeg",
+  "adress": [
+    {
+      "street": "אהוד קינמון 51",
+      "city": "בת ים",
+      "_id": {
+        "$oid": "64f7c3a4488a69fc868582b7"
+      }
+    }
+  ],
+  "tel": "0541796253",
+  "target_age": "כל הגילאים",
+  "comments": "מתחם לופט ארויו הינו מתחם אירוח בו תוכלו ליהנות ללא הגבלת רעש ועד השעות הקטנות של הלילה. המתחם ממוקם במרכז הארץ בעיר בת ים. במתחם תיהנו ממערכת שמע, קריוקי, שולחן אבירים, פינת ברביקיו, במה לדיג'יי ועוד.\nגודל הלופט הינו 150 מ\"ר ",
+  "createdAt": {
+    "$date": "2023-09-06T00:11:16.485Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:11:16.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c410488a69fc868582bb"
+  },
+  "category_id": {
+    "$oid": "64f0fb381c30ecabbaaeb5f9"
+  },
+  "place_name": "מולין רוז",
+  "image": "https://www.vila4u.com/gallery_v4u/v4u_1663835152268331_1200x710.jpeg",
+  "adress": [
+    {
+      "street": "קצנשטיין 1",
+      "city": "חיפה",
+      "_id": {
+        "$oid": "64f7c410488a69fc868582bc"
+      }
+    }
+  ],
+  "tel": "053-6481136 ",
+  "target_age": "מבוגרים",
+  "comments": "",
+  "createdAt": {
+    "$date": "2023-09-06T00:13:04.166Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T00:13:04.166Z"
+  },
+  "__v": 0
+}]

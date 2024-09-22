@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(237, 135, 135);
+    
+}
+#login, #join{
+    background-color:rgb(241, 233, 234);
+    border: 5px solid black;
+    border-radius: 40px;
+    width: 30%;
+    height: 350px;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+input{
+    position: relative;
+    margin-top: 60px;
+}
+
+.b{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#b1{
+    color: white;
+    font-size: larger;
+    background-color: hotpink;
+}
+
+label{
+    font-size: larger;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+  }

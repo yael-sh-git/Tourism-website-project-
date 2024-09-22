@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../scrips/addCategory.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+  <title>הוסף קטגוריה חדשה</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #fff; /* רקע לבן */
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      background-color: #fff; /* רקע לבן */
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 450px;
+      width: 100%;
+    }
+
+    .form-title {
+      font-size: 32px;
+      color: #000; /* צבע שחור */
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .input-field {
+      margin-bottom: 20px;
+      text-align: right;
+    }
+
+    .input-field label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #000; /* צבע שחור */
+      text-align: right;
+    }
+
+    .input-field input, .input-field textarea {
+      width: 95%;
+      padding: 12px;
+      border: 2px solid #000; /* צבע שחור */
+      border-radius: 8px;
+      font-size: 16px;
+      text-align: right;
+    }
+    
+    .input-field select{
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #000; /* צבע שחור */
+      border-radius: 8px;
+      font-size: 16px;
+      text-align: right;
+    }
+
+
+    #addButton {
+      width: 100%;
+      padding: 12px;
+      background-color: #00f; /* צבע תכלת */
+      border: none;
+      border-radius: 8px;
+      color: #fff; /* צבע לבן */
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #addButton:hover {
+      background-color: #009; /* צבע תכלת כהה */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-title">הוסף קטגוריה חדשה</div>
+    <div class="input-field">
+      <label for="placeName">:שם הקטגוריה</label>
+      <input type="text" id="categoryName" name="categoryName" placeholder="הכנס שם קטגוריה" required>
+    </div>
+    <div class="input-field">
+      <label for="imageAddress">:כתובת התמונה</label>
+      <input type="text" id="imageAddress" name="imageAddress" placeholder="הכנס כתובת התמונה" required>
+    </div>
+    
+    <button id="addButton" onclick="addCategory()">הוסף</button>
+  </div>
+</body>
+</html>
